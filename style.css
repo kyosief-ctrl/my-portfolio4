@@ -1,0 +1,65 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@600;700&display=swap');
+
+/* Basic styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F4F7FA;
+  color: #243447;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+header, main, footer {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  background-color: #17324D;
+  border-radius: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Class selector */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #D5DEE8;
+  border-radius: 8px;
+}
+
+/* ID selector */
+#intro {
+  padding: 32px;
+  background-color: #DFEAF4;
+  border-radius: 8px;
+}
