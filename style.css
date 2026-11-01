@@ -46,7 +46,7 @@ nav a:hover {
 /* Class selector */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
 
@@ -62,4 +62,65 @@ nav a:hover {
   padding: 32px;
   background-color: #DFEAF4;
   border-radius: 8px;
+}
+
+/* TABLET RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+
+  body {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 480px) {
+
+  body {
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+
+  #intro {
+    padding: 16px;
+  }
+
 }
