@@ -10,13 +10,6 @@ This website introduces me, my interests, my projects, and my career goals. It i
 ## 1. Accessibility Improvements
 
 - Added navigation labels to help visitors understand the website menu.
-- Added `aria-current="page"` to identify the current page in the navigation.
-- Added proper labels to the contact form fields.
-- Used fieldset and legend to group contact information.
-- Added required fields to make sure visitors enter their information.
-- Added accessible error messages to help visitors correct mistakes.
-- Added keyboard focus styles to make links and form fields easier to see.
-- Organized HTML headings and sections to make the website easier to navigate.
 
 ## 2. Visual Design
 
@@ -56,16 +49,8 @@ I used label elements to identify each field and fieldset and legend to group re
 
 The form currently checks the information entered but does not send messages.
 
-## 5. Responsive Design
 
-I used CSS Grid and media queries to help my website adjust to different screen sizes.
-
-The website includes:
-- Desktop layout
-- Tablet layout
-- Mobile layout
-
-## 6. Tools Used
+## 5. Tools Used
 
 - HTML
 - CSS
