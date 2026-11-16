@@ -231,3 +231,19 @@ footer {
     padding: 12px;
   }
 }
+
+/* Home page button */
+.button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2563EB;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.button-link:hover {
+  background-color: #17324D;
+  text-decoration: underline;
+}
